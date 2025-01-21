@@ -1,49 +1,69 @@
-# AutoFit Tabs for Obsidian
+# Inline Checkbox Groups for Obsidian
 
-Automatically adjusts tab header widths in real-time to perfectly fit each tab's title content while maintaining a clean, seamless interface that prevents awkward text truncation and ensures optimal readability of your document titles.
+Create multiple checkboxes on a single line, separated by a customizable separator character, with automatic text strikethrough when all tasks are completed. Perfect for creating compact task groups, progress trackers, and status indicators.
 
+## Demo
 ![Demo video](/images/demo.gif) 
 
 ## Features
 
-- **Dynamic Width Adjustment**: Tabs automatically resize to fit their content
-- **Smooth Transitions**: Clean animations when tabs are resized
-- **Space Optimization**: No more truncated titles or wasted space
-- **Highly Customizable**: Fine-tune every aspect of tab appearance
-- **Resource Efficient**: Uses caching to minimize performance impact
-- **Clean Interface**: Maintains Obsidian's sleek look and feel
+- **Inline Checkboxes**: Create multiple checkboxes on a single line
+- **Custom Separators**: Choose your preferred separator character (default: '|')
+- **Auto Strikethrough**: Optionally cross out text when all checkboxes in a group are checked
+- **Live Preview**: Changes reflect immediately in both edit and preview modes
+- **Clean Interface**: Maintains Obsidian's native checkbox styling
+- **Resource Efficient**: Optimized for performance with minimal overhead
+
+## Examples
+
+Create grouped tasks with a separator:
+```markdown
+[x] Task 1 | [x] Task 2 | [ ] Task 3
+```
+
+Or write them more compactly:
+```markdown
+[x] Task 1|[x] Task 2|[x] Task 3
+```
+
+![example1](/images/example1.png) 
 
 ## Installation
 
 1. Open Obsidian Settings
 2. Navigate to Community Plugins and disable Safe Mode
-3. Click Browse and search for "AutoFit Tabs"
+3. Click Browse and search for "Inline Checkbox Groups"
 4. Install the plugin
 5. Enable the plugin in your Community Plugins list
 
 ### Manual Installation
 
 1. Download the latest release from the releases page
-2. Extract the files into your vault's `.obsidian/plugins/autofit-tabs/` directory
+2. Extract the files into your vault's `.obsidian/plugins/inline-checkbox-groups/` directory
 3. Reload Obsidian
 4. Enable the plugin in your Community Plugins list
 
 ## Usage
 
-Once installed and enabled, AutoFit Tabs works automatically with no additional configuration needed. The plugin will immediately begin adjusting your tab widths to fit their content.
+Once installed and enabled, you can create inline checkbox groups by:
 
-### Configuration
+1. Writing multiple checkbox tasks on a single line
+2. Separating them with your configured separator character (default: '|')
+3. The plugin will automatically format them as an inline group
+
+Example:
+```markdown
+[ ] Morning Tasks | [ ] Afternoon Tasks | [ ] Evening Tasks
+```
+
+### Settings
 
 You can customize the following settings in the plugin options:
 
 ![Plugin Settings](/images/settings.png) 
 
-- **Minimum Width**: Set the smallest allowed width for tabs (default: 40px)
-- **Close Button Width**: Adjust the width of the tab close button (default: 28px)
-- **Left Padding**: Set the padding before the tab icon (default: 12px)
-- **Icon Right Margin**: Set the space between icon and text (default: 0px)
-- **Close Button Padding**: Adjust the space before the close button (default: 10px)
-- **Transition Duration**: Set how fast tabs animate when resizing (default: 315ms)
+- **Separator**: Choose the character used to separate checkboxes (default: '|')
+- **Cross Out Completed**: Toggle whether to strike through text when all checkboxes in a group are checked
 
 ## Compatibility
 
@@ -73,12 +93,12 @@ Want to contribute or modify the plugin? Here's how to get started with the sour
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/bwya77/autofit-tabs.git
+   git clone https://github.com/bwya77/Inline-Checkbox-Groups.git
    ```
 
 3. Navigate to the plugin directory:
    ```bash
-   cd autofit-tabs
+   cd inline-checkbox-groups
    ```
 
 4. Install dependencies:
@@ -111,4 +131,4 @@ To test your modifications:
 
 ## License
 
-MIT License. See [LICENSE](https://github.com/bwya77/autofit-tabs/blob/main/LICENSE) for full text.
+MIT License. See [LICENSE](https://github.com/bwya77/Inline-Checkbox-Groups/blob/main/LICENSE) for full text.
