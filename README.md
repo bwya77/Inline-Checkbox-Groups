@@ -60,7 +60,7 @@ Example:
 
 You can customize the following settings in the plugin options:
 
-![Plugin Settings](/images/settings.png) 
+![Plugin Settings](/images/settings1.png) 
 
 - **Separator**: Choose the character used to separate checkboxes (default: '|')
 - **Cross Out Completed**: Toggle whether to strike through text when all checkboxes in a group are checked
