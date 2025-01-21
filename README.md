@@ -3,7 +3,7 @@
 Create multiple checkboxes on a single line, separated by a customizable separator character, with automatic text strikethrough when all tasks are completed. Perfect for creating compact task groups, progress trackers, and status indicators.
 
 ## Demo
-![Demo video](/images/demo.gif) 
+![Demo video](/images/demo1.gif) 
 
 ## Features
 
