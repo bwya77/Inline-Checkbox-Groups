@@ -5,7 +5,7 @@
 	"minAppVersion": "0.15.0",
 	"description": "Create multiple checkboxes on a single line, separated by a customizable separator character (default '|'), with the option to automatically cross out text when all checkboxes in the line are checked.",
 	"author": "Bradley Wyatt",
-	"authorUrl": "https://obsidian.md",
+	"authorUrl": "https://github.com/bwya77",
 	"fundingUrl": {
 		"Buy Me a Coffee": "buymeacoffee.com/bwya77",
 		"GitHub Sponsor":  "https://github.com/sponsors/bwya77"
