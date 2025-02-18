@@ -1,6 +1,5 @@
 import { Plugin, MarkdownView, Editor, App, PluginSettingTab, Setting } from 'obsidian';
 import { EditorView, ViewUpdate } from '@codemirror/view';
-import './styles.css';
 
 interface InlineCheckboxGroupSettings {
     separator: string;
